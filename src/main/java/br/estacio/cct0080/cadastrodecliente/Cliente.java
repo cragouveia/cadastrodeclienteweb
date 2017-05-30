@@ -20,7 +20,6 @@ public class Cliente  {
     private String numero;
     private String cidade;
     private int sexo;
-    private Image foto;
     private EstadoCivil estadoCivil;
 
     public Cliente() {
@@ -104,14 +103,6 @@ public class Cliente  {
 
     public void setSexo(int sexo) {
         this.sexo = sexo;
-    }
-
-    public Image getFoto() {
-        return foto;
-    }
-
-    public void setFoto(Image foto) {
-        this.foto = foto;
     }
 
     public EstadoCivil getEstadoCivil() {
